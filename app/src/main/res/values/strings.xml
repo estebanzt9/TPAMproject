@@ -2,4 +2,8 @@
     <string name="app_name">Holamundo</string>
     <string name="bot2">Bot2</string>
     <string name="bot1">Bot1</string>
+    <string name="buenas_noches_david">¡Buenas noches David!</string>
+    <string name="aleatorio">Aleatorio</string>
+    <string name="ir_a_form"><![CDATA[Ir a Form ->]]></string>
+    <string name="hola_mundo_tpam_viles">Hola mundo: TPAMóviles</string>
 </resources>

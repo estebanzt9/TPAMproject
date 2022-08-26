@@ -20,80 +20,72 @@
         android:fontFamily="sans-serif-medium"
         android:labelFor="@id/layout2"
         android:layerType="none"
-        android:text="¡Buenas noches David!"
+        android:text="@string/buenas_noches_david"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#000000"
         app:autoSizeTextType="uniform"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="647dp" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="410dp"
+        android:layout_height="0dp"
+        android:text="@string/hola_mundo_tpam_viles" />
 
-    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout2"
+        android:layout_width="409dp"
+        android:layout_height="645dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:visibility="visible">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_height="85dp"
+            android:background="#912929"
+            android:text="@string/aleatorio"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="332dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="140dp"
+            android:layout_height="85dp"
+            android:background="#8BC34A"
+            android:text="@string/ir_a_form"
+            android:textColor="#37474F"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="476dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="135dp"
+            android:layout_height="68dp"
+            android:background="#15A6C3"
+            android:text="@string/bot2"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="133dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="125dp"
+            android:layout_height="67dp"
+            android:background="#C33415"
+            android:text="@string/bot1"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="133dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/layout2"
-            android:layout_width="409dp"
-            android:layout_height="733dp"
-            android:visibility="visible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:visibility="visible">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="410dp"
-                android:layout_height="0dp"
-                android:text="Hola mundo: TPAMóviles"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="16dp" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="140dp"
-                android:layout_height="85dp"
-                android:background="#912929"
-                android:text="Aleatorio"
-                tools:layout_editor_absoluteX="129dp"
-                tools:layout_editor_absoluteY="332dp" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="140dp"
-                android:layout_height="85dp"
-                android:background="#8BC34A"
-                android:text="Ir a Form ->"
-                tools:layout_editor_absoluteX="263dp"
-                tools:layout_editor_absoluteY="476dp" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="135dp"
-                android:layout_height="68dp"
-                android:background="#15A6C3"
-                android:text="@string/bot2"
-                tools:layout_editor_absoluteX="66dp"
-                tools:layout_editor_absoluteY="133dp" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="125dp"
-                android:layout_height="67dp"
-                android:background="#C33415"
-                android:text="@string/bot1"
-                tools:layout_editor_absoluteX="229dp"
-                tools:layout_editor_absoluteY="133dp" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
