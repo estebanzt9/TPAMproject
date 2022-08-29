@@ -56,8 +56,8 @@
             android:layout_height="85dp"
             android:background="#912929"
             android:text="@string/aleatorio"
-            tools:layout_editor_absoluteX="129dp"
-            tools:layout_editor_absoluteY="332dp" />
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="301dp" />
 
         <Button
             android:id="@+id/button7"
@@ -75,8 +75,8 @@
             android:layout_height="68dp"
             android:background="#15A6C3"
             android:text="@string/bot2"
-            tools:layout_editor_absoluteX="37dp"
-            tools:layout_editor_absoluteY="133dp" />
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="183dp" />
 
         <Button
             android:id="@+id/button2"
@@ -85,7 +85,7 @@
             android:background="#C33415"
             android:text="@string/bot1"
             tools:layout_editor_absoluteX="229dp"
-            tools:layout_editor_absoluteY="133dp" />
+            tools:layout_editor_absoluteY="183dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
